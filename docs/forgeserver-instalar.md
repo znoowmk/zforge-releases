@@ -1,5 +1,36 @@
 # Instalar ForgeServer
 
+## La forma más rápida: una computadora de la oficina o de tu casa
+
+1. Descarga ForgeServer desde https://github.com/znoowmk/zforge-releases/releases (busca `forgeserver`)
+   y descomprímelo.
+2. Ábrelo (`bin/forgeserver`). La primera vez crea su configuración y te muestra algo así:
+
+   ```
+   ForgeServer 0.2.0 está funcionando.
+   Ábrelo desde el navegador de cualquier equipo de tu red:
+       http://192.168.1.20:8080
+   Primera vez: entra a una de esas direcciones y crea la cuenta de administración con este código:
+       QE9M-BLU8
+   ```
+3. Entra a esa dirección desde el navegador, escribe el código y crea tu cuenta de administración.
+4. En **Administración** agrega a las demás personas y crea carpetas compartidas (por ejemplo
+   «Oficina») con quienes las usarán.
+5. Cada persona entra con su usuario desde el navegador o conecta ForgeServer como unidad de red
+   (instrucciones en **Mi cuenta y conexión**) para abrir y guardar directo desde sus programas.
+
+Los datos quedan en la carpeta de datos de tu usuario (`~/.local/share/forgeserver` en Linux,
+`%LOCALAPPDATA%\ForgeServer` en Windows, `~/Library/Application Support/ForgeServer` en macOS).
+Respáldala.
+
+**Qué te protege de errores:** lo que se borra (desde el navegador o la unidad de red) va a la
+**Papelera** 30 días, y cada vez que un archivo se reemplaza se guarda la copia anterior (las
+últimas 10) en **Versiones anteriores**.
+
+Para que funcione también desde fuera de la oficina, con HTTPS, sigue una de las opciones de abajo.
+
+---
+
 ForgeServer corre en **tu** equipo o en **tu** nube. Elige una opción:
 
 | Opción | Para quién | Dificultad |
@@ -36,8 +67,9 @@ nano forgeserver.toml     # cambia public_url
 # 4. Arranca (la primera vez compila; tarda unos minutos)
 docker compose up -d
 
-# 5. Crea tu usuario administrador (te pide la contraseña, mínimo 10 caracteres)
-docker compose exec -T forgeserver forgeserver user add tunombre --admin
+# 5. Mira el código de primer inicio y entra a https://tu-dominio para crear la administración
+docker compose logs forgeserver | grep -A1 "código"
+#    (o desde la terminal: docker compose exec -T forgeserver forgeserver user add tunombre --admin)
 ```
 
 Abre `https://nube.tuempresa.mx`. Caddy obtiene el certificado HTTPS solo y lo renueva.

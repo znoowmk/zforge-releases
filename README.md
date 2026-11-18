@@ -26,7 +26,7 @@ The easiest way is **ForgeLauncher**: it installs, opens and updates every app f
 | <img src="iconos/pdfforge.png" width="40"> | **PDFForge** | Read, fill in, sign, merge and split PDFs without uploading them anywhere. | [0.21.1](https://github.com/znoowmk/zforge-releases/releases/download/pdfforge-v0.21.1/pdfforge-0.21.1-linux-x86_64.tar.gz) |
 | <img src="iconos/mailforge.png" width="40"> | **MailForge** | All your email accounts in one app, with calendar and contacts. | [0.2.0](https://github.com/znoowmk/zforge-releases/releases/download/mailforge-v0.2.0/mailforge-0.2.0-linux-x86_64.tar.gz) |
 | <img src="iconos/zipforge.png" width="40"> | **ZipForge** | Compress and extract files, with password protection. | [0.2.0](https://github.com/znoowmk/zforge-releases/releases/download/zipforge-v0.2.0/zipforge-0.2.0-linux-x86_64.tar.gz) |
-| <img src="iconos/forgeserver.png" width="40"> | **ForgeServer** | Your own server: everyone's files, shared folders, a network drive and the apps in the browser. | [0.1.0](https://github.com/znoowmk/zforge-releases/releases/download/forgeserver-v0.1.0/forgeserver-0.1.0-linux-x86_64.tar.gz) |
+| <img src="iconos/forgeserver.png" width="40"> | **ForgeServer** | Your own server: everyone's files, shared folders, a network drive and the apps in the browser. | [0.2.0](https://github.com/znoowmk/zforge-releases/releases/download/forgeserver-v0.2.0/forgeserver-0.2.0-linux-x86_64.tar.gz) |
 | <img src="iconos/forgelauncher.png" width="40"> | **ForgeLauncher** | Installs and updates the whole suite. | [0.19.5](https://github.com/znoowmk/zforge-releases/releases/download/forgelauncher-v0.19.5/forgelauncher-0.19.5-linux-x86_64.tar.gz) |
 
 Every earlier version is under [Releases](https://github.com/znoowmk/zforge-releases/releases). Windows builds are coming here too.
@@ -45,11 +45,17 @@ DocForge, SlideForge and PDFForge are shown in English: their Spanish interface 
 
 Z-FORGE doesn't make you use anyone's cloud: **you run your own server**, on an office PC, a VPS, a Raspberry Pi or Docker. One 7 MB program with no external database.
 
-- Each person's files from the browser, or as a network drive (WebDAV) on Windows, macOS and Linux.
+1. Download ForgeServer, unpack it and run `bin/forgeserver`.
+2. It shows the address for the other computers and a one-time code. Open the address, type the code and create the administrator account.
+3. In **Administration**, add people and create shared folders (for example "Office").
+
+- Each person's files from the browser (PDF, picture and text previews, search, drag to upload) or as a network drive on Windows, macOS and Linux, to open and save straight from the apps.
+- Shared folders several people work in.
+- A 30-day trash and the last 10 versions of every file, also from the network drive.
 - Share links that expire, and a storage quota per person.
-- SheetForge, DocForge and SlideForge in the browser.
 
 <p align="center"><img src="capturas/forgeserver.webp" width="900" alt="ForgeServer"><br><sub>ForgeServer in the browser</sub></p>
+<p align="center"><img src="capturas/forgeserver-admin.webp" width="900" alt="ForgeServer administration"><br><sub>People and shared folders, managed from the browser</sub></p>
 
 Guides (Spanish): [Install ForgeServer](docs/forgeserver-instalar.md) · [Security](docs/forgeserver-seguridad.md)
 
