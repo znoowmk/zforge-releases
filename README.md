@@ -18,18 +18,18 @@ The easiest way is **ForgeLauncher**: it installs, opens and updates every app f
 
 ## The apps
 
-| | App | What it's for | Linux x86-64 |
-|---|---|---|---|
-| <img src="iconos/sheetforge.png" width="40"> | **SheetForge** | Spreadsheets. Opens `.xlsx`, `.xls`, `.ods` and `.csv`, and your formulas give the same results as in Excel. | [0.19.2](https://github.com/znoowmk/zforge-releases/releases/download/sheetforge-v0.19.2/sheetforge-0.19.2-linux-x86_64.tar.gz) |
-| <img src="iconos/docforge.png" width="40"> | **DocForge** | Documents. Write and edit Word files without Word (`.docx`, `.odt`). Comes with **MindForge**, an AI assistant that drafts and proofreads with you, using models on your own computer. | [0.18.1](https://github.com/znoowmk/zforge-releases/releases/download/docforge-v0.18.1/docforge-0.18.1-linux-x86_64.tar.gz) |
-| <img src="iconos/slideforge.png" width="40"> | **SlideForge** | Slides that look the same as in PowerPoint (`.pptx`, `.odp`), with presenter view. | [0.18.1](https://github.com/znoowmk/zforge-releases/releases/download/slideforge-v0.18.1/slideforge-0.18.1-linux-x86_64.tar.gz) |
-| <img src="iconos/pdfforge.png" width="40"> | **PDFForge** | Read, fill in, sign, merge and split PDFs without uploading them anywhere. | [0.21.1](https://github.com/znoowmk/zforge-releases/releases/download/pdfforge-v0.21.1/pdfforge-0.21.1-linux-x86_64.tar.gz) |
-| <img src="iconos/mailforge.png" width="40"> | **MailForge** | All your email accounts in one app, with calendar and contacts. | [0.2.0](https://github.com/znoowmk/zforge-releases/releases/download/mailforge-v0.2.0/mailforge-0.2.0-linux-x86_64.tar.gz) |
-| <img src="iconos/zipforge.png" width="40"> | **ZipForge** | Compress and extract files, with password protection. | [0.2.0](https://github.com/znoowmk/zforge-releases/releases/download/zipforge-v0.2.0/zipforge-0.2.0-linux-x86_64.tar.gz) |
-| <img src="iconos/forgeserver.png" width="40"> | **ForgeServer** | Your own server: everyone's files, shared folders, a network drive and the apps in the browser. | [0.2.0](https://github.com/znoowmk/zforge-releases/releases/download/forgeserver-v0.2.0/forgeserver-0.2.0-linux-x86_64.tar.gz) |
-| <img src="iconos/forgelauncher.png" width="40"> | **ForgeLauncher** | Installs and updates the whole suite. | [0.19.5](https://github.com/znoowmk/zforge-releases/releases/download/forgelauncher-v0.19.5/forgelauncher-0.19.5-linux-x86_64.tar.gz) |
+| | App | What it's for | Linux | Windows |
+|---|---|---|---|---|
+| <img src="iconos/sheetforge.png" width="40"> | **SheetForge** | Spreadsheets. Opens `.xlsx`, `.xls`, `.ods` and `.csv`, and your formulas give the same results as in Excel. | [0.19.3](https://github.com/znoowmk/zforge-releases/releases/download/sheetforge-v0.19.3/sheetforge-0.19.3-linux-x86_64.tar.gz) | [.zip](https://github.com/znoowmk/zforge-releases/releases/download/sheetforge-v0.19.3/sheetforge-0.19.3-windows-x64-portable.zip) |
+| <img src="iconos/docforge.png" width="40"> | **DocForge** | Documents. Write and edit Word files without Word (`.docx`, `.odt`). Comes with **MindForge**, an AI assistant that drafts and proofreads with you, using models on your own computer. | [0.18.2](https://github.com/znoowmk/zforge-releases/releases/download/docforge-v0.18.2/docforge-0.18.2-linux-x86_64.tar.gz) | [.zip](https://github.com/znoowmk/zforge-releases/releases/download/docforge-v0.18.2/docforge-0.18.2-windows-x64-portable.zip) |
+| <img src="iconos/slideforge.png" width="40"> | **SlideForge** | Slides that look the same as in PowerPoint (`.pptx`, `.odp`, and old `.ppt` files), with presenter view. | [0.18.2](https://github.com/znoowmk/zforge-releases/releases/download/slideforge-v0.18.2/slideforge-0.18.2-linux-x86_64.tar.gz) | [.zip](https://github.com/znoowmk/zforge-releases/releases/download/slideforge-v0.18.2/slideforge-0.18.2-windows-x64-portable.zip) |
+| <img src="iconos/pdfforge.png" width="40"> | **PDFForge** | Read, fill in, sign, merge and split PDFs without uploading them anywhere. | [0.21.2](https://github.com/znoowmk/zforge-releases/releases/download/pdfforge-v0.21.2/pdfforge-0.21.2-linux-x86_64.tar.gz) | [.zip](https://github.com/znoowmk/zforge-releases/releases/download/pdfforge-v0.21.2/pdfforge-0.21.2-windows-x64-portable.zip) |
+| <img src="iconos/mailforge.png" width="40"> | **MailForge** | All your email accounts in one app, with calendar and contacts. | [0.2.0](https://github.com/znoowmk/zforge-releases/releases/download/mailforge-v0.2.0/mailforge-0.2.0-linux-x86_64.tar.gz) | [.zip](https://github.com/znoowmk/zforge-releases/releases/download/mailforge-v0.2.0/mailforge-0.2.0-windows-x64-portable.zip) |
+| <img src="iconos/zipforge.png" width="40"> | **ZipForge** | Compress and extract files, with password protection. | [0.2.0](https://github.com/znoowmk/zforge-releases/releases/download/zipforge-v0.2.0/zipforge-0.2.0-linux-x86_64.tar.gz) | [.zip](https://github.com/znoowmk/zforge-releases/releases/download/zipforge-v0.2.0/zipforge-0.2.0-windows-x64-portable.zip) |
+| <img src="iconos/forgeserver.png" width="40"> | **ForgeServer** | Your own server: everyone's files, shared folders, a network drive and the apps in the browser. | [0.2.0](https://github.com/znoowmk/zforge-releases/releases/download/forgeserver-v0.2.0/forgeserver-0.2.0-linux-x86_64.tar.gz) | [.zip](https://github.com/znoowmk/zforge-releases/releases/download/forgeserver-v0.2.0/forgeserver-0.2.0-windows-x64-portable.zip) |
+| <img src="iconos/forgelauncher.png" width="40"> | **ForgeLauncher** | Installs and updates the whole suite. | [0.19.5](https://github.com/znoowmk/zforge-releases/releases/download/forgelauncher-v0.19.5/forgelauncher-0.19.5-linux-x86_64.tar.gz) | [.zip](https://github.com/znoowmk/zforge-releases/releases/download/forgelauncher-v0.19.5/forgelauncher-0.19.5-windows-x64-portable.zip) |
 
-Every earlier version is under [Releases](https://github.com/znoowmk/zforge-releases/releases). Windows builds are coming here too.
+Every earlier version is under [Releases](https://github.com/znoowmk/zforge-releases/releases). Windows: unpack the .zip and open the .exe, nothing to install; or let ForgeLauncher install and update it.
 
 ## A closer look
 
@@ -39,7 +39,7 @@ Every earlier version is under [Releases](https://github.com/znoowmk/zforge-rele
 <p align="center"><img src="capturas/zipforge.webp" width="900" alt="ZipForge"><br><sub>ZipForge</sub></p>
 <p align="center"><img src="capturas/mailforge.webp" width="900" alt="MailForge"><br><sub>MailForge before adding an account</sub></p>
 
-DocForge, SlideForge and PDFForge are shown in English: their Spanish interface is on the way.
+The apps follow your system language (English and Spanish everywhere, more languages in DocForge and PDFForge).
 
 ## Your own server (ForgeServer)
 
@@ -62,8 +62,8 @@ Guides (Spanish): [Install ForgeServer](docs/forgeserver-instalar.md) · [Securi
 ## Install an app by hand (Linux)
 
 ```bash
-tar xzf sheetforge-0.19.2-linux-x86_64.tar.gz
-cd sheetforge-0.19.2-linux-x86_64
+tar xzf sheetforge-0.19.3-linux-x86_64.tar.gz
+cd sheetforge-0.19.3-linux-x86_64
 ./bin/sheetforge
 ```
 
