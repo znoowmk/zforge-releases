@@ -27,7 +27,7 @@ repo = "znoowmk/zforge-releases#docforge"
 tagline = "Documentos"
 [apps.details]
 headline = "Escribe y edita documentos de Word, aunque no tengas Word."
-about = "Abre y guarda archivos .docx y .odt sin que se mueva el formato. Funciona sin internet y tus documentos se quedan en tu computadora."
+about = "Abre y guarda archivos .docx y .odt sin que se mueva el formato. Trae MindForge, un asistente de IA que redacta y corrige contigo, con modelos en tu propia computadora. Tus documentos se quedan contigo."
 platforms = "Linux, Windows, macOS"
 [[apps.details.features]]
 text = "Abre y guarda .docx tal como los ves en Word."
@@ -260,43 +260,6 @@ title = "Exporta"
 
 
 [[apps]]
-color = [217, 119, 6]
-former_bundles = []
-former_ids = ["mindcraft"]
-former_names = ["MindCraft"]
-id = "mindforge"
-binary = "mindforge"
-flatpak_id = "org.zforge.mindforge"
-mac_bundle_id = "org.zforge.mindforge"
-mac_bundle_name = "MindForge"
-website = "https://zforge.sovereign"
-windows_msi_publisher = "Z-FORGE Sovereign"
-deb_package = "mindforge"
-rpm_package = "mindforge"
-desktop_categories = ["Development", "Utility"]
-startup_wm_class = "mindforge"
-icon_url = "https://zforge.sovereign/app-icons/mindforge.png"
-icon_sha256 = "mindforge"
-ink_dark = [251, 191, 36]
-ink_light = [217, 119, 6]
-kind = "official"
-name = "MindForge IA"
-publisher = "Z-FORGE"
-repo = "znoowmk/zforge-releases#mindforge"
-tagline = "Asistente de escritura con IA"
-[apps.details]
-headline = "Una IA que escribe y revisa contigo, sin mandar nada a internet."
-about = "Usa modelos de IA que corren en tu propia computadora (con Ollama). Redacta textos y tablas dentro de DocForge, corrige el documento que tienes abierto, resume PDF y revisa contratos para avisarte de cláusulas riesgosas. Por ahora se usa desde la terminal."
-platforms = "Linux, Windows, macOS"
-[[apps.details.features]]
-text = "Pídele un texto o una tabla y lo pone en tu documento."
-title = "Escribe en DocForge"
-[[apps.details.features]]
-text = "Resume un PDF o te marca las cláusulas que conviene revisar."
-title = "Revisa contratos"
-
-
-[[apps]]
 color = [11, 114, 133]
 former_bundles = []
 former_ids = []
@@ -331,4 +294,3 @@ title = "Busca adentro"
 [[apps.details.features]]
 text = "Resultados mientras escribes."
 title = "Al instante"
-
