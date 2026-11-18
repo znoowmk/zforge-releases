@@ -10,7 +10,7 @@ Hojas de cálculo, documentos, presentaciones, PDF, correo y más. Sin suscripci
 
 Lo más fácil es **ForgeLauncher**: instala, abre y actualiza todas las apps desde una sola ventana.
 
-1. Descarga [ForgeLauncher para Linux](https://github.com/znoowmk/zforge-releases/releases/download/forgelauncher-v0.19.4/forgelauncher-0.19.4-linux-x86_64.tar.gz).
+1. Descarga [ForgeLauncher para Linux](https://github.com/znoowmk/zforge-releases/releases/download/forgelauncher-v0.19.5/forgelauncher-0.19.5-linux-x86_64.tar.gz).
 2. Descomprímelo y abre `bin/forgelauncher`.
 3. Elige las apps que quieras. Las baja de aquí, revisa cada archivo y te avisa cuando hay versión nueva.
 
@@ -27,7 +27,7 @@ Lo más fácil es **ForgeLauncher**: instala, abre y actualiza todas las apps de
 | <img src="iconos/mailforge.png" width="40"> | **MailForge** | Todas tus cuentas de correo en una sola app, con calendario y contactos. | [0.2.0](https://github.com/znoowmk/zforge-releases/releases/download/mailforge-v0.2.0/mailforge-0.2.0-linux-x86_64.tar.gz) |
 | <img src="iconos/zipforge.png" width="40"> | **ZipForge** | Comprime y descomprime archivos, con contraseña si quieres. | [0.2.0](https://github.com/znoowmk/zforge-releases/releases/download/zipforge-v0.2.0/zipforge-0.2.0-linux-x86_64.tar.gz) |
 | <img src="iconos/forgeserver.png" width="40"> | **ForgeServer** | Tu propio servidor: los archivos de cada quien, carpetas compartidas, unidad de red y las apps en el navegador. | [0.1.0](https://github.com/znoowmk/zforge-releases/releases/download/forgeserver-v0.1.0/forgeserver-0.1.0-linux-x86_64.tar.gz) |
-| <img src="iconos/forgelauncher.png" width="40"> | **ForgeLauncher** | Instala y actualiza toda la suite. | [0.19.4](https://github.com/znoowmk/zforge-releases/releases/download/forgelauncher-v0.19.4/forgelauncher-0.19.4-linux-x86_64.tar.gz) |
+| <img src="iconos/forgelauncher.png" width="40"> | **ForgeLauncher** | Instala y actualiza toda la suite. | [0.19.5](https://github.com/znoowmk/zforge-releases/releases/download/forgelauncher-v0.19.5/forgelauncher-0.19.5-linux-x86_64.tar.gz) |
 
 Todas las versiones anteriores están en [Releases](https://github.com/znoowmk/zforge-releases/releases). Las de Windows también llegarán aquí.
 

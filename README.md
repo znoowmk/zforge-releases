@@ -10,7 +10,7 @@ Spreadsheets, documents, slides, PDF, email and more. No subscription, no accoun
 
 The easiest way is **ForgeLauncher**: it installs, opens and updates every app from one window.
 
-1. Download [ForgeLauncher for Linux](https://github.com/znoowmk/zforge-releases/releases/download/forgelauncher-v0.19.4/forgelauncher-0.19.4-linux-x86_64.tar.gz).
+1. Download [ForgeLauncher for Linux](https://github.com/znoowmk/zforge-releases/releases/download/forgelauncher-v0.19.5/forgelauncher-0.19.5-linux-x86_64.tar.gz).
 2. Unpack it and run `bin/forgelauncher`.
 3. Pick the apps you want. It downloads them from here, checks every file, and tells you when there's a new version.
 
@@ -27,7 +27,7 @@ The easiest way is **ForgeLauncher**: it installs, opens and updates every app f
 | <img src="iconos/mailforge.png" width="40"> | **MailForge** | All your email accounts in one app, with calendar and contacts. | [0.2.0](https://github.com/znoowmk/zforge-releases/releases/download/mailforge-v0.2.0/mailforge-0.2.0-linux-x86_64.tar.gz) |
 | <img src="iconos/zipforge.png" width="40"> | **ZipForge** | Compress and extract files, with password protection. | [0.2.0](https://github.com/znoowmk/zforge-releases/releases/download/zipforge-v0.2.0/zipforge-0.2.0-linux-x86_64.tar.gz) |
 | <img src="iconos/forgeserver.png" width="40"> | **ForgeServer** | Your own server: everyone's files, shared folders, a network drive and the apps in the browser. | [0.1.0](https://github.com/znoowmk/zforge-releases/releases/download/forgeserver-v0.1.0/forgeserver-0.1.0-linux-x86_64.tar.gz) |
-| <img src="iconos/forgelauncher.png" width="40"> | **ForgeLauncher** | Installs and updates the whole suite. | [0.19.4](https://github.com/znoowmk/zforge-releases/releases/download/forgelauncher-v0.19.4/forgelauncher-0.19.4-linux-x86_64.tar.gz) |
+| <img src="iconos/forgelauncher.png" width="40"> | **ForgeLauncher** | Installs and updates the whole suite. | [0.19.5](https://github.com/znoowmk/zforge-releases/releases/download/forgelauncher-v0.19.5/forgelauncher-0.19.5-linux-x86_64.tar.gz) |
 
 Every earlier version is under [Releases](https://github.com/znoowmk/zforge-releases/releases). Windows builds are coming here too.
 

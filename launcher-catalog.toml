@@ -10,31 +10,47 @@ binary = "docforge"
 flatpak_id = "org.zforge.docforge"
 mac_bundle_id = "org.zforge.docforge"
 mac_bundle_name = "DocForge"
-website = "https://zforge.sovereign"
-windows_msi_publisher = "Z-FORGE Sovereign"
+website = "https://github.com/znoowmk/zforge-releases"
+windows_msi_publisher = "Z-FORGE"
 deb_package = "docforge"
 rpm_package = "docforge"
 desktop_categories = ["Office", "WordProcessor"]
 startup_wm_class = "docforge"
-icon_url = "https://zforge.sovereign/app-icons/docforge.png"
-icon_sha256 = "docforge"
+icon_url = "https://raw.githubusercontent.com/znoowmk/zforge-releases/main/iconos/launcher/docforge-1882790c10b767d89628943cc99f81ba39698f715f3baa190d77ebe1863edb35.png"
+icon_sha256 = "1882790c10b767d89628943cc99f81ba39698f715f3baa190d77ebe1863edb35"
 ink_dark = [127, 176, 255]
 ink_light = [26, 91, 196]
 kind = "official"
 name = "DocForge"
 publisher = "Z-FORGE"
 repo = "znoowmk/zforge-releases#docforge"
-tagline = "Documentos"
+tagline = "Documents"
 [apps.details]
-headline = "Escribe y edita documentos de Word, aunque no tengas Word."
-about = "Abre y guarda archivos .docx y .odt sin que se mueva el formato. Trae MindForge, un asistente de IA que redacta y corrige contigo, con modelos en tu propia computadora. Tus documentos se quedan contigo."
+headline = "Write and edit Word documents, even without Word."
+about = "Opens and saves .docx and .odt files without moving the layout. Comes with MindForge, an AI assistant that drafts and proofreads with you using models on your own computer. Your documents stay with you."
 platforms = "Linux, Windows, macOS"
 [[apps.details.features]]
-text = "Abre y guarda .docx tal como los ves en Word."
-title = "Compatible con Word"
+text = "Opens and saves .docx just as Word shows them."
+title = "Works with Word"
 [[apps.details.features]]
-text = "Todo pasa en tu computadora; nada se sube a ningún lado."
-title = "Sin internet"
+text = "Everything happens on your computer; nothing is uploaded."
+title = "No internet needed"
+[[apps.details.shots]]
+key = "main"
+url = "https://raw.githubusercontent.com/znoowmk/zforge-releases/v1/docforge/main.jpg"
+caption = "A proposal with headings, lists and a table"
+[[apps.details.shots]]
+key = "mindforge"
+url = "https://raw.githubusercontent.com/znoowmk/zforge-releases/v1/docforge/mindforge.jpg"
+caption = "MindForge drafting and proofreading beside the page"
+[[apps.details.shots]]
+key = "insert"
+url = "https://raw.githubusercontent.com/znoowmk/zforge-releases/v1/docforge/insert.jpg"
+caption = "Tables, pictures, charts and equations from the Insert tab"
+[[apps.details.shots]]
+key = "review"
+url = "https://raw.githubusercontent.com/znoowmk/zforge-releases/v1/docforge/review.jpg"
+caption = "Spelling, comments and tracked changes"
 
 
 [[apps]]
@@ -47,31 +63,35 @@ binary = "sheetforge"
 flatpak_id = "org.zforge.sheetforge"
 mac_bundle_id = "org.zforge.sheetforge"
 mac_bundle_name = "SheetForge"
-website = "https://zforge.sovereign"
-windows_msi_publisher = "Z-FORGE Sovereign"
+website = "https://github.com/znoowmk/zforge-releases"
+windows_msi_publisher = "Z-FORGE"
 deb_package = "sheetforge"
 rpm_package = "sheetforge"
 desktop_categories = ["Office", "Spreadsheet"]
 startup_wm_class = "sheetforge"
-icon_url = "https://zforge.sovereign/app-icons/sheetforge.png"
-icon_sha256 = "sheetforge"
+icon_url = "https://raw.githubusercontent.com/znoowmk/zforge-releases/main/iconos/launcher/sheetforge-716aa20935098b8f0969f856ae3c276cc5e432f2a47aeb0c0093eba36747fd2e.png"
+icon_sha256 = "716aa20935098b8f0969f856ae3c276cc5e432f2a47aeb0c0093eba36747fd2e"
 ink_dark = [110, 231, 183]
 ink_light = [4, 120, 87]
 kind = "official"
 name = "SheetForge"
 publisher = "Z-FORGE"
 repo = "znoowmk/zforge-releases#sheetforge"
-tagline = "Hojas de cálculo"
+tagline = "Spreadsheets"
 [apps.details]
-headline = "Tus hojas de Excel, con los mismos resultados."
-about = "Abre .xlsx, .xls, .ods y .csv. Comparamos sus fórmulas contra Excel en 1,835 archivos reales y dan lo mismo."
+headline = "Your Excel sheets, with the same results."
+about = "Opens .xlsx, .xls, .ods and .csv. We compared its formulas with Excel on 1,835 real files and they give the same results."
 platforms = "Linux, Windows, macOS"
 [[apps.details.features]]
-text = "Tus fórmulas dan los mismos resultados que en Excel."
-title = "Fórmulas como en Excel"
+text = "Your formulas give the same results as in Excel."
+title = "Formulas like Excel"
 [[apps.details.features]]
-text = "Dile qué quieres automatizar y arma la macro; también traduce tus macros de VBA."
-title = "Macros IA"
+text = "Say what you want automated and it builds the macro; it also translates your VBA macros."
+title = "Macros AI"
+[[apps.details.shots]]
+key = "main"
+url = "https://raw.githubusercontent.com/znoowmk/zforge-releases/v1/sheetforge/main.jpg"
+caption = "An Excel sales report with its chart"
 
 
 [[apps]]
@@ -84,31 +104,35 @@ binary = "slideforge"
 flatpak_id = "org.zforge.slideforge"
 mac_bundle_id = "org.zforge.slideforge"
 mac_bundle_name = "SlideForge"
-website = "https://zforge.sovereign"
-windows_msi_publisher = "Z-FORGE Sovereign"
+website = "https://github.com/znoowmk/zforge-releases"
+windows_msi_publisher = "Z-FORGE"
 deb_package = "slideforge"
 rpm_package = "slideforge"
 desktop_categories = ["Office", "Presentation"]
 startup_wm_class = "slideforge"
-icon_url = "https://zforge.sovereign/app-icons/slideforge.png"
-icon_sha256 = "slideforge"
+icon_url = "https://raw.githubusercontent.com/znoowmk/zforge-releases/main/iconos/launcher/slideforge-99c0460ed624414c6b660c6b69e5ce9163ba0f02a9697fb0347c85632c445663.png"
+icon_sha256 = "99c0460ed624414c6b660c6b69e5ce9163ba0f02a9697fb0347c85632c445663"
 ink_dark = [252, 211, 77]
 ink_light = [180, 83, 9]
 kind = "official"
 name = "SlideForge"
 publisher = "Z-FORGE"
 repo = "znoowmk/zforge-releases#slideforge"
-tagline = "Presentaciones"
+tagline = "Slides"
 [apps.details]
-headline = "Presentaciones que se ven igual que en PowerPoint."
-about = "Crea y presenta archivos .pptx y .odp, con vista de orador y transiciones."
+headline = "Slides that look the same as in PowerPoint."
+about = "Create and present .pptx and .odp files, with presenter view and transitions."
 platforms = "Linux, Windows, macOS"
 [[apps.details.features]]
-text = "Abre .pptx sin que se muevan textos ni imágenes."
-title = "Compatible con PowerPoint"
+text = "Opens .pptx without moving text or pictures."
+title = "Works with PowerPoint"
 [[apps.details.features]]
-text = "Tus notas y la siguiente diapositiva en tu pantalla; el público solo ve la presentación."
-title = "Modo presentador"
+text = "Your notes and the next slide on your screen; the audience sees only the show."
+title = "Presenter view"
+[[apps.details.shots]]
+key = "main"
+url = "https://raw.githubusercontent.com/znoowmk/zforge-releases/v1/slideforge/main.jpg"
+caption = "A two-slide plan"
 
 
 [[apps]]
@@ -121,31 +145,35 @@ binary = "pdfforge"
 flatpak_id = "org.zforge.pdfforge"
 mac_bundle_id = "org.zforge.pdfforge"
 mac_bundle_name = "PDFForge"
-website = "https://zforge.sovereign"
-windows_msi_publisher = "Z-FORGE Sovereign"
+website = "https://github.com/znoowmk/zforge-releases"
+windows_msi_publisher = "Z-FORGE"
 deb_package = "pdfforge"
 rpm_package = "pdfforge"
 desktop_categories = ["Office", "Viewer"]
 startup_wm_class = "pdfforge"
-icon_url = "https://zforge.sovereign/app-icons/pdfforge.png"
-icon_sha256 = "pdfforge"
+icon_url = "https://raw.githubusercontent.com/znoowmk/zforge-releases/main/iconos/launcher/pdfforge-9ca8825c5bfd199f56586f32e0bc7837c855635ae608616fdd4a34b3035b95ef.png"
+icon_sha256 = "9ca8825c5bfd199f56586f32e0bc7837c855635ae608616fdd4a34b3035b95ef"
 ink_dark = [252, 165, 165]
 ink_light = [185, 28, 28]
 kind = "official"
 name = "PDFForge"
 publisher = "Z-FORGE"
 repo = "znoowmk/zforge-releases#pdfforge"
-tagline = "PDF"
+tagline = "PDF tools"
 [apps.details]
-headline = "Lee, firma y arma tus PDF sin subirlos a ninguna página."
-about = "Anota, rellena formularios, firma, une, divide y comprime archivos PDF desde tu computadora."
+headline = "Read, sign and put together PDFs without uploading them anywhere."
+about = "Annotate, fill in forms, sign, merge, split and compress PDF files on your computer."
 platforms = "Linux, Windows, macOS"
 [[apps.details.features]]
-text = "Rellena y firma contratos o solicitudes en minutos."
-title = "Firma y formularios"
+text = "Fill in and sign contracts or applications in minutes."
+title = "Sign and fill in"
 [[apps.details.features]]
-text = "Junta varios PDF en uno o saca solo las páginas que necesitas."
-title = "Une y divide"
+text = "Join several PDFs into one, or keep only the pages you need."
+title = "Merge and split"
+[[apps.details.shots]]
+key = "main"
+url = "https://raw.githubusercontent.com/znoowmk/zforge-releases/v1/pdfforge/main.jpg"
+caption = "An invoice, with tools to sign and fill in"
 
 
 [[apps]]
@@ -158,31 +186,35 @@ binary = "mailforge"
 flatpak_id = "org.zforge.mailforge"
 mac_bundle_id = "org.zforge.mailforge"
 mac_bundle_name = "MailForge"
-website = "https://zforge.sovereign"
-windows_msi_publisher = "Z-FORGE Sovereign"
+website = "https://github.com/znoowmk/zforge-releases"
+windows_msi_publisher = "Z-FORGE"
 deb_package = "mailforge"
 rpm_package = "mailforge"
 desktop_categories = ["Network", "Email"]
 startup_wm_class = "mailforge"
-icon_url = "https://zforge.sovereign/app-icons/mailforge.png"
-icon_sha256 = "mailforge"
+icon_url = "https://raw.githubusercontent.com/znoowmk/zforge-releases/main/iconos/launcher/mailforge-80c4fc2467408fc1e4c4ec4653ed419732f1c0dbd6db5b23d899032609a4afcb.png"
+icon_sha256 = "80c4fc2467408fc1e4c4ec4653ed419732f1c0dbd6db5b23d899032609a4afcb"
 ink_dark = [165, 180, 252]
 ink_light = [67, 56, 202]
 kind = "official"
 name = "MailForge"
 publisher = "Z-FORGE"
 repo = "znoowmk/zforge-releases#mailforge"
-tagline = "Correo"
+tagline = "Email"
 [apps.details]
-headline = "Todas tus cuentas de correo en una sola app."
-about = "Gmail, Outlook o el correo de tu empresa, con calendario y contactos. Tus correos se guardan en tu computadora."
+headline = "All your email accounts in one app."
+about = "Gmail, Outlook or your company's email, with calendar and contacts. Your mail is kept on your computer."
 platforms = "Linux, Windows, macOS"
 [[apps.details.features]]
-text = "Personal y de trabajo en la misma bandeja."
-title = "Varias cuentas"
+text = "Personal and work in the same inbox."
+title = "Several accounts"
 [[apps.details.features]]
-text = "Tus citas y tu agenda junto a tu correo."
-title = "Calendario y contactos"
+text = "Your appointments and address book next to your mail."
+title = "Calendar and contacts"
+[[apps.details.shots]]
+key = "main"
+url = "https://raw.githubusercontent.com/znoowmk/zforge-releases/v1/mailforge/main.jpg"
+caption = "Mail, calendar and contacts in one window"
 
 
 [[apps]]
@@ -195,31 +227,35 @@ binary = "zipforge"
 flatpak_id = "org.zforge.zipforge"
 mac_bundle_id = "org.zforge.zipforge"
 mac_bundle_name = "ZipForge"
-website = "https://zforge.sovereign"
-windows_msi_publisher = "Z-FORGE Sovereign"
+website = "https://github.com/znoowmk/zforge-releases"
+windows_msi_publisher = "Z-FORGE"
 deb_package = "zipforge"
 rpm_package = "zipforge"
 desktop_categories = ["Utility", "Archiving"]
 startup_wm_class = "zipforge"
-icon_url = "https://zforge.sovereign/app-icons/zipforge.png"
-icon_sha256 = "zipforge"
+icon_url = "https://raw.githubusercontent.com/znoowmk/zforge-releases/main/iconos/launcher/zipforge-cffc8e949d74e07e7641db6b5983c79b551436a23d72c9bbe269486b0bcb560e.png"
+icon_sha256 = "cffc8e949d74e07e7641db6b5983c79b551436a23d72c9bbe269486b0bcb560e"
 ink_dark = [148, 163, 184]
 ink_light = [71, 85, 105]
 kind = "official"
 name = "ZipForge"
 publisher = "Z-FORGE"
 repo = "znoowmk/zforge-releases#zipforge"
-tagline = "Archivos comprimidos"
+tagline = "Archives"
 [apps.details]
-headline = "Comprime y descomprime archivos con un clic."
-about = "Abre y crea archivos comprimidos y protégelos con contraseña. Arrastra y listo."
+headline = "Compress and extract files in one click."
+about = "Open and create compressed archives and protect them with a password. Drag and drop, done."
 platforms = "Linux, Windows, macOS"
 [[apps.details.features]]
-text = "Protege lo que mandas con una contraseña."
-title = "Con contraseña"
+text = "Protect what you send with a password."
+title = "With a password"
 [[apps.details.features]]
-text = "Suelta archivos en la ventana para comprimirlos o abrirlos."
-title = "Arrastra y suelta"
+text = "Drop files on the window to compress or open them."
+title = "Drag and drop"
+[[apps.details.shots]]
+key = "main"
+url = "https://raw.githubusercontent.com/znoowmk/zforge-releases/v1/zipforge/main.jpg"
+caption = "Opening a compressed folder"
 
 
 [[apps]]
@@ -232,31 +268,31 @@ binary = "pixelforge"
 flatpak_id = "org.zforge.pixelforge"
 mac_bundle_id = "org.zforge.pixelforge"
 mac_bundle_name = "PixelForge"
-website = "https://zforge.sovereign"
-windows_msi_publisher = "Z-FORGE Sovereign"
+website = "https://github.com/znoowmk/zforge-releases"
+windows_msi_publisher = "Z-FORGE"
 deb_package = "pixelforge"
 rpm_package = "pixelforge"
 desktop_categories = ["Graphics", "2DGraphics"]
 startup_wm_class = "pixelforge"
-icon_url = "https://zforge.sovereign/app-icons/pixelforge.png"
-icon_sha256 = "pixelforge"
+icon_url = "https://raw.githubusercontent.com/znoowmk/zforge-releases/main/iconos/launcher/pixelforge-0cabc903d7c9c35255ac40e15f8bb0ab729b082ab60c4a7c54c5b1593cd95e1f.png"
+icon_sha256 = "0cabc903d7c9c35255ac40e15f8bb0ab729b082ab60c4a7c54c5b1593cd95e1f"
 ink_dark = [196, 181, 253]
 ink_light = [109, 40, 217]
 kind = "official"
 name = "PixelForge"
 publisher = "Z-FORGE"
 repo = "znoowmk/zforge-releases#pixelforge"
-tagline = "Diseño y diagramas"
+tagline = "Design and diagrams"
 [apps.details]
-headline = "Dibuja diagramas, esquemas y gráficos rápidos."
-about = "Para organigramas, diagramas de flujo y gráficos sencillos que luego pegas en tus documentos."
+headline = "Draw diagrams, layouts and quick graphics."
+about = "For org charts, flowcharts and simple graphics you then paste into your documents."
 platforms = "Linux, Windows, macOS"
 [[apps.details.features]]
-text = "Cajas y flechas que se acomodan solas."
-title = "Diagramas"
+text = "Boxes and arrows that line up on their own."
+title = "Diagrams"
 [[apps.details.features]]
-text = "Pégalos en tus documentos y presentaciones."
-title = "Exporta"
+text = "Paste them into your documents and slides."
+title = "Into your documents"
 
 
 [[apps]]
@@ -269,28 +305,29 @@ binary = "searchforge"
 flatpak_id = "org.zforge.searchforge"
 mac_bundle_id = "org.zforge.searchforge"
 mac_bundle_name = "SearchForge"
-website = "https://zforge.sovereign"
-windows_msi_publisher = "Z-FORGE Sovereign"
+website = "https://github.com/znoowmk/zforge-releases"
+windows_msi_publisher = "Z-FORGE"
 deb_package = "searchforge"
 rpm_package = "searchforge"
 desktop_categories = ["Utility", "FileManager"]
 startup_wm_class = "searchforge"
-icon_url = "https://zforge.sovereign/app-icons/searchforge.png"
-icon_sha256 = "searchforge"
+icon_url = "https://raw.githubusercontent.com/znoowmk/zforge-releases/main/iconos/launcher/searchforge-36edf086cf03415ff365513bfd12f19126b40d6e35eaf226cb8b6f2a82b94abc.png"
+icon_sha256 = "36edf086cf03415ff365513bfd12f19126b40d6e35eaf226cb8b6f2a82b94abc"
 ink_dark = [103, 232, 249]
 ink_light = [14, 116, 144]
 kind = "official"
 name = "SearchForge"
 publisher = "Z-FORGE"
 repo = "znoowmk/zforge-releases#searchforge"
-tagline = "Buscar archivos"
+tagline = "File search"
 [apps.details]
-headline = "Encuentra cualquier archivo al instante."
-about = "Busca por nombre o por lo que dice adentro, en documentos, hojas y PDF de tu computadora."
+headline = "Find any file instantly."
+about = "Search by name or by what's inside, across the documents, sheets and PDFs on your computer."
 platforms = "Linux, Windows, macOS"
 [[apps.details.features]]
-text = "Encuentra un archivo por una frase que recuerdas."
-title = "Busca adentro"
+text = "Find a file by a phrase you remember."
+title = "Searches inside"
 [[apps.details.features]]
-text = "Resultados mientras escribes."
-title = "Al instante"
+text = "Results as you type."
+title = "Instant"
+
