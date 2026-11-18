@@ -1,0 +1,334 @@
+# Catálogo de la suite Z-FORGE
+
+[[apps]]
+color = [30, 64, 175]
+former_bundles = []
+former_ids = ["wordcraft", "wordforge"]
+former_names = ["WordCraft", "WordForge"]
+id = "docforge"
+binary = "docforge"
+flatpak_id = "org.zforge.docforge"
+mac_bundle_id = "org.zforge.docforge"
+mac_bundle_name = "DocForge"
+website = "https://zforge.sovereign"
+windows_msi_publisher = "Z-FORGE Sovereign"
+deb_package = "docforge"
+rpm_package = "docforge"
+desktop_categories = ["Office", "WordProcessor"]
+startup_wm_class = "docforge"
+icon_url = "https://zforge.sovereign/app-icons/docforge.png"
+icon_sha256 = "docforge"
+ink_dark = [127, 176, 255]
+ink_light = [26, 91, 196]
+kind = "official"
+name = "DocForge"
+publisher = "Z-FORGE"
+repo = "znoowmk/zforge-releases#docforge"
+tagline = "Documentos"
+[apps.details]
+headline = "Escribe y edita documentos de Word, aunque no tengas Word."
+about = "Abre y guarda archivos .docx y .odt sin que se mueva el formato. Funciona sin internet y tus documentos se quedan en tu computadora."
+platforms = "Linux, Windows, macOS"
+[[apps.details.features]]
+text = "Abre y guarda .docx tal como los ves en Word."
+title = "Compatible con Word"
+[[apps.details.features]]
+text = "Todo pasa en tu computadora; nada se sube a ningún lado."
+title = "Sin internet"
+
+
+[[apps]]
+color = [6, 95, 70]
+former_bundles = []
+former_ids = ["gridcraft", "gridforge"]
+former_names = ["GridCraft", "GridForge"]
+id = "sheetforge"
+binary = "sheetforge"
+flatpak_id = "org.zforge.sheetforge"
+mac_bundle_id = "org.zforge.sheetforge"
+mac_bundle_name = "SheetForge"
+website = "https://zforge.sovereign"
+windows_msi_publisher = "Z-FORGE Sovereign"
+deb_package = "sheetforge"
+rpm_package = "sheetforge"
+desktop_categories = ["Office", "Spreadsheet"]
+startup_wm_class = "sheetforge"
+icon_url = "https://zforge.sovereign/app-icons/sheetforge.png"
+icon_sha256 = "sheetforge"
+ink_dark = [110, 231, 183]
+ink_light = [4, 120, 87]
+kind = "official"
+name = "SheetForge"
+publisher = "Z-FORGE"
+repo = "znoowmk/zforge-releases#sheetforge"
+tagline = "Hojas de cálculo"
+[apps.details]
+headline = "Tus hojas de Excel, con los mismos resultados."
+about = "Abre .xlsx, .xls, .ods y .csv. Comparamos sus fórmulas contra Excel en 1,835 archivos reales y dan lo mismo."
+platforms = "Linux, Windows, macOS"
+[[apps.details.features]]
+text = "Tus fórmulas dan los mismos resultados que en Excel."
+title = "Fórmulas como en Excel"
+[[apps.details.features]]
+text = "Dile qué quieres automatizar y arma la macro; también traduce tus macros de VBA."
+title = "Macros IA"
+
+
+[[apps]]
+color = [180, 83, 9]
+former_bundles = []
+former_ids = ["deckcraft"]
+former_names = ["DeckCraft"]
+id = "slideforge"
+binary = "slideforge"
+flatpak_id = "org.zforge.slideforge"
+mac_bundle_id = "org.zforge.slideforge"
+mac_bundle_name = "SlideForge"
+website = "https://zforge.sovereign"
+windows_msi_publisher = "Z-FORGE Sovereign"
+deb_package = "slideforge"
+rpm_package = "slideforge"
+desktop_categories = ["Office", "Presentation"]
+startup_wm_class = "slideforge"
+icon_url = "https://zforge.sovereign/app-icons/slideforge.png"
+icon_sha256 = "slideforge"
+ink_dark = [252, 211, 77]
+ink_light = [180, 83, 9]
+kind = "official"
+name = "SlideForge"
+publisher = "Z-FORGE"
+repo = "znoowmk/zforge-releases#slideforge"
+tagline = "Presentaciones"
+[apps.details]
+headline = "Presentaciones que se ven igual que en PowerPoint."
+about = "Crea y presenta archivos .pptx y .odp, con vista de orador y transiciones."
+platforms = "Linux, Windows, macOS"
+[[apps.details.features]]
+text = "Abre .pptx sin que se muevan textos ni imágenes."
+title = "Compatible con PowerPoint"
+[[apps.details.features]]
+text = "Tus notas y la siguiente diapositiva en tu pantalla; el público solo ve la presentación."
+title = "Modo presentador"
+
+
+[[apps]]
+color = [153, 27, 27]
+former_bundles = []
+former_ids = ["pdfcraft"]
+former_names = ["PdfCraft"]
+id = "pdfforge"
+binary = "pdfforge"
+flatpak_id = "org.zforge.pdfforge"
+mac_bundle_id = "org.zforge.pdfforge"
+mac_bundle_name = "PDFForge"
+website = "https://zforge.sovereign"
+windows_msi_publisher = "Z-FORGE Sovereign"
+deb_package = "pdfforge"
+rpm_package = "pdfforge"
+desktop_categories = ["Office", "Viewer"]
+startup_wm_class = "pdfforge"
+icon_url = "https://zforge.sovereign/app-icons/pdfforge.png"
+icon_sha256 = "pdfforge"
+ink_dark = [252, 165, 165]
+ink_light = [185, 28, 28]
+kind = "official"
+name = "PDFForge"
+publisher = "Z-FORGE"
+repo = "znoowmk/zforge-releases#pdfforge"
+tagline = "PDF"
+[apps.details]
+headline = "Lee, firma y arma tus PDF sin subirlos a ninguna página."
+about = "Anota, rellena formularios, firma, une, divide y comprime archivos PDF desde tu computadora."
+platforms = "Linux, Windows, macOS"
+[[apps.details.features]]
+text = "Rellena y firma contratos o solicitudes en minutos."
+title = "Firma y formularios"
+[[apps.details.features]]
+text = "Junta varios PDF en uno o saca solo las páginas que necesitas."
+title = "Une y divide"
+
+
+[[apps]]
+color = [67, 56, 202]
+former_bundles = []
+former_ids = []
+former_names = []
+id = "mailforge"
+binary = "mailforge"
+flatpak_id = "org.zforge.mailforge"
+mac_bundle_id = "org.zforge.mailforge"
+mac_bundle_name = "MailForge"
+website = "https://zforge.sovereign"
+windows_msi_publisher = "Z-FORGE Sovereign"
+deb_package = "mailforge"
+rpm_package = "mailforge"
+desktop_categories = ["Network", "Email"]
+startup_wm_class = "mailforge"
+icon_url = "https://zforge.sovereign/app-icons/mailforge.png"
+icon_sha256 = "mailforge"
+ink_dark = [165, 180, 252]
+ink_light = [67, 56, 202]
+kind = "official"
+name = "MailForge"
+publisher = "Z-FORGE"
+repo = "znoowmk/zforge-releases#mailforge"
+tagline = "Correo"
+[apps.details]
+headline = "Todas tus cuentas de correo en una sola app."
+about = "Gmail, Outlook o el correo de tu empresa, con calendario y contactos. Tus correos se guardan en tu computadora."
+platforms = "Linux, Windows, macOS"
+[[apps.details.features]]
+text = "Personal y de trabajo en la misma bandeja."
+title = "Varias cuentas"
+[[apps.details.features]]
+text = "Tus citas y tu agenda junto a tu correo."
+title = "Calendario y contactos"
+
+
+[[apps]]
+color = [30, 41, 59]
+former_bundles = []
+former_ids = ["z-arch", "zipcraft"]
+former_names = ["Z-Arch", "ZipCraft"]
+id = "zipforge"
+binary = "zipforge"
+flatpak_id = "org.zforge.zipforge"
+mac_bundle_id = "org.zforge.zipforge"
+mac_bundle_name = "ZipForge"
+website = "https://zforge.sovereign"
+windows_msi_publisher = "Z-FORGE Sovereign"
+deb_package = "zipforge"
+rpm_package = "zipforge"
+desktop_categories = ["Utility", "Archiving"]
+startup_wm_class = "zipforge"
+icon_url = "https://zforge.sovereign/app-icons/zipforge.png"
+icon_sha256 = "zipforge"
+ink_dark = [148, 163, 184]
+ink_light = [71, 85, 105]
+kind = "official"
+name = "ZipForge"
+publisher = "Z-FORGE"
+repo = "znoowmk/zforge-releases#zipforge"
+tagline = "Archivos comprimidos"
+[apps.details]
+headline = "Comprime y descomprime archivos con un clic."
+about = "Abre y crea archivos comprimidos y protégelos con contraseña. Arrastra y listo."
+platforms = "Linux, Windows, macOS"
+[[apps.details.features]]
+text = "Protege lo que mandas con una contraseña."
+title = "Con contraseña"
+[[apps.details.features]]
+text = "Suelta archivos en la ventana para comprimirlos o abrirlos."
+title = "Arrastra y suelta"
+
+
+[[apps]]
+color = [109, 40, 217]
+former_bundles = []
+former_ids = ["galleryforge", "photocraft"]
+former_names = ["GalleryForge"]
+id = "pixelforge"
+binary = "pixelforge"
+flatpak_id = "org.zforge.pixelforge"
+mac_bundle_id = "org.zforge.pixelforge"
+mac_bundle_name = "PixelForge"
+website = "https://zforge.sovereign"
+windows_msi_publisher = "Z-FORGE Sovereign"
+deb_package = "pixelforge"
+rpm_package = "pixelforge"
+desktop_categories = ["Graphics", "2DGraphics"]
+startup_wm_class = "pixelforge"
+icon_url = "https://zforge.sovereign/app-icons/pixelforge.png"
+icon_sha256 = "pixelforge"
+ink_dark = [196, 181, 253]
+ink_light = [109, 40, 217]
+kind = "official"
+name = "PixelForge"
+publisher = "Z-FORGE"
+repo = "znoowmk/zforge-releases#pixelforge"
+tagline = "Diseño y diagramas"
+[apps.details]
+headline = "Dibuja diagramas, esquemas y gráficos rápidos."
+about = "Para organigramas, diagramas de flujo y gráficos sencillos que luego pegas en tus documentos."
+platforms = "Linux, Windows, macOS"
+[[apps.details.features]]
+text = "Cajas y flechas que se acomodan solas."
+title = "Diagramas"
+[[apps.details.features]]
+text = "Pégalos en tus documentos y presentaciones."
+title = "Exporta"
+
+
+[[apps]]
+color = [217, 119, 6]
+former_bundles = []
+former_ids = ["mindcraft"]
+former_names = ["MindCraft"]
+id = "mindforge"
+binary = "mindforge"
+flatpak_id = "org.zforge.mindforge"
+mac_bundle_id = "org.zforge.mindforge"
+mac_bundle_name = "MindForge"
+website = "https://zforge.sovereign"
+windows_msi_publisher = "Z-FORGE Sovereign"
+deb_package = "mindforge"
+rpm_package = "mindforge"
+desktop_categories = ["Development", "Utility"]
+startup_wm_class = "mindforge"
+icon_url = "https://zforge.sovereign/app-icons/mindforge.png"
+icon_sha256 = "mindforge"
+ink_dark = [251, 191, 36]
+ink_light = [217, 119, 6]
+kind = "official"
+name = "MindForge IA"
+publisher = "Z-FORGE"
+repo = "znoowmk/zforge-releases#mindforge"
+tagline = "Asistente de escritura con IA"
+[apps.details]
+headline = "Una IA que escribe y revisa contigo, sin mandar nada a internet."
+about = "Usa modelos de IA que corren en tu propia computadora (con Ollama). Redacta textos y tablas dentro de DocForge, corrige el documento que tienes abierto, resume PDF y revisa contratos para avisarte de cláusulas riesgosas. Por ahora se usa desde la terminal."
+platforms = "Linux, Windows, macOS"
+[[apps.details.features]]
+text = "Pídele un texto o una tabla y lo pone en tu documento."
+title = "Escribe en DocForge"
+[[apps.details.features]]
+text = "Resume un PDF o te marca las cláusulas que conviene revisar."
+title = "Revisa contratos"
+
+
+[[apps]]
+color = [11, 114, 133]
+former_bundles = []
+former_ids = []
+former_names = []
+id = "searchforge"
+binary = "searchforge"
+flatpak_id = "org.zforge.searchforge"
+mac_bundle_id = "org.zforge.searchforge"
+mac_bundle_name = "SearchForge"
+website = "https://zforge.sovereign"
+windows_msi_publisher = "Z-FORGE Sovereign"
+deb_package = "searchforge"
+rpm_package = "searchforge"
+desktop_categories = ["Utility", "FileManager"]
+startup_wm_class = "searchforge"
+icon_url = "https://zforge.sovereign/app-icons/searchforge.png"
+icon_sha256 = "searchforge"
+ink_dark = [103, 232, 249]
+ink_light = [14, 116, 144]
+kind = "official"
+name = "SearchForge"
+publisher = "Z-FORGE"
+repo = "znoowmk/zforge-releases#searchforge"
+tagline = "Buscar archivos"
+[apps.details]
+headline = "Encuentra cualquier archivo al instante."
+about = "Busca por nombre o por lo que dice adentro, en documentos, hojas y PDF de tu computadora."
+platforms = "Linux, Windows, macOS"
+[[apps.details.features]]
+text = "Encuentra un archivo por una frase que recuerdas."
+title = "Busca adentro"
+[[apps.details.features]]
+text = "Resultados mientras escribes."
+title = "Al instante"
+
