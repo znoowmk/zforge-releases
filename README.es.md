@@ -8,13 +8,18 @@ Hojas de cálculo, documentos, presentaciones, PDF, correo y más. Sin suscripci
 
 ## Empieza aquí
 
-Lo más fácil es **ForgeLauncher**: instala, abre y actualiza todas las apps desde una sola ventana.
+**Windows:** descarga el `.zip` de la app que quieras (tabla de abajo), ábrelo y da doble clic en el `.exe`. No hay que instalar nada.
 
-1. Descarga [ForgeLauncher para Linux](https://github.com/znoowmk/zforge-releases/releases/download/forgelauncher-v0.19.6/forgelauncher-0.19.6-linux-x86_64.tar.gz).
-2. Descomprímelo y abre `bin/forgelauncher`.
-3. Elige las apps que quieras. Las baja de aquí, revisa cada archivo y te avisa cuando hay versión nueva.
+**Linux:** copia esto en una terminal y presiona Enter:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/znoowmk/zforge-releases/main/instalar.sh | sh
+```
+
+Eso instala **ForgeLauncher** con su ícono en el menú. Ábrelo y elige las apps: él las descarga, las instala y te avisa cuando hay versiones nuevas. No pide contraseña de administrador.
 
 <p align="center"><img src="capturas/forgelauncher.webp" width="900" alt="ForgeLauncher"><br><sub>ForgeLauncher</sub></p>
+
 
 ## Las apps
 
@@ -59,17 +64,21 @@ Z-FORGE no te obliga a usar la nube de nadie: **cada quien monta su servidor**, 
 
 Guías: [Instalar ForgeServer](docs/forgeserver-instalar.md) · [Seguridad](docs/forgeserver-seguridad.md)
 
-## Instalar una app a mano (Linux)
+<details>
+<summary><b>Para usuarios avanzados:</b> instalar a mano y revisar la descarga</summary>
+
+En Linux, sin ForgeLauncher:
 
 ```bash
 tar xzf sheetforge-0.19.4-linux-x86_64.tar.gz
-cd sheetforge-0.19.4-linux-x86_64
-./bin/sheetforge
+./sheetforge-0.19.4-linux-x86_64/bin/sheetforge
 ```
 
-Para que aparezca en el menú, copia `share/` a `~/.local/share/` y `bin/` a `~/.local/bin/`. Funciona en cualquier Linux de 2023 en adelante (glibc 2.36 o más nueva).
+Funciona en cualquier Linux de 2023 en adelante (glibc 2.36 o más nueva).
 
-**Revisa la descarga:** cada versión trae `SHA256SUMS.txt`. Ponlo junto al archivo y ejecuta `sha256sum -c SHA256SUMS.txt`; debe decir `OK`. ForgeLauncher lo hace por ti.
+**¿Qué es `SHA256SUMS.txt`?** Es opcional. Trae la "huella" de cada archivo publicado: si tu descarga tiene la misma huella, llegó completa y nadie la cambió. ForgeLauncher y el instalador de arriba la revisan solos. A mano: pon el archivo junto a tu descarga y ejecuta `sha256sum -c --ignore-missing SHA256SUMS.txt`; debe decir `OK`.
+
+</details>
 
 ## ¿Por qué Z-FORGE y no Office?
 
