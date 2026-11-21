@@ -129,5 +129,7 @@ Every app has a light and a dark look. In ZipForge, SearchForge, GalleryForge, P
 
 Open an [issue](https://github.com/znoowmk/zforge-releases/issues) with the app, its version and, if you can, the file that fails (without private data).
 
+Licences and third-party notices: [LICENCIAS.md](LICENCIAS.md) (Spanish).
+
 ---
 © 2026 Znoow · Z-FORGE

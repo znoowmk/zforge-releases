@@ -129,5 +129,7 @@ Todas las apps tienen modo claro y oscuro. En ZipForge, SearchForge, GalleryForg
 
 Abre un [issue](https://github.com/znoowmk/zforge-releases/issues) con la app, la versión y, si puedes, el archivo que falla (sin datos privados).
 
+Licencias y avisos de software de terceros: [LICENCIAS.md](LICENCIAS.md).
+
 ---
 © 2026 Znoow · Z-FORGE
